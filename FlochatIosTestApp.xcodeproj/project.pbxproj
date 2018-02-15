@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474BDFB72034557000B983A4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474BDFB62034557000B983A4 /* SignUpViewController.swift */; };
+		474BDFBB20345DBE00B983A4 /* FoodFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474BDFBA20345DBE00B983A4 /* FoodFeedTableViewController.swift */; };
+		476DBDD020332F9E00FA9ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBDCF20332F9E00FA9ECA /* AppDelegate.swift */; };
+		476DBDD220332F9E00FA9ECA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBDD120332F9E00FA9ECA /* SignInViewController.swift */; };
+		476DBDD520332F9E00FA9ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476DBDD320332F9E00FA9ECA /* Main.storyboard */; };
+		476DBDD720332F9E00FA9ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476DBDD620332F9E00FA9ECA /* Assets.xcassets */; };
+		476DBDDA20332F9E00FA9ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476DBDD820332F9E00FA9ECA /* LaunchScreen.storyboard */; };
+		476DBDE520332F9E00FA9ECA /* FlochatIosTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBDE420332F9E00FA9ECA /* FlochatIosTestAppTests.swift */; };
+		476DBDF020332F9E00FA9ECA /* FlochatIosTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBDEF20332F9E00FA9ECA /* FlochatIosTestAppUITests.swift */; };
+		476DBDFE20333A1800FA9ECA /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBDFD20333A1800FA9ECA /* Collection.swift */; };
+		476DBE022033526500FA9ECA /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBE012033526500FA9ECA /* WebService.swift */; };
+		4779BF7A2034BB1E00CCDB11 /* FoodFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779BF792034BB1E00CCDB11 /* FoodFeedTableViewCell.swift */; };
+		4779BF882035A02B00CCDB11 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779BF872035A02B00CCDB11 /* DBService.swift */; };
+		4779BF8A2035A73900CCDB11 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779BF892035A73900CCDB11 /* User.swift */; };
+		4779BF8E2035B72E00CCDB11 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4779BF8D2035B72E00CCDB11 /* Podfile */; };
+		4779BF902035D8F000CCDB11 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779BF8F2035D8F000CCDB11 /* Utility.swift */; };
+		7AC994E2639F06F62A35D205 /* Pods_FlochatIosTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85B047A6B4F7F9B4E6A9A55 /* Pods_FlochatIosTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476DBDE120332F9E00FA9ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476DBDC420332F9E00FA9ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476DBDCB20332F9E00FA9ECA;
+			remoteInfo = FlochatIosTestApp;
+		};
+		476DBDEC20332F9E00FA9ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476DBDC420332F9E00FA9ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476DBDCB20332F9E00FA9ECA;
+			remoteInfo = FlochatIosTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2309D5438B7930BF24EEF8A4 /* Pods-FlochatIosTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlochatIosTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlochatIosTestApp/Pods-FlochatIosTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		36EDFAB5B078103D5EF86CB4 /* Pods-FlochatIosTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlochatIosTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlochatIosTestApp/Pods-FlochatIosTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		474BDFB62034557000B983A4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		474BDFBA20345DBE00B983A4 /* FoodFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFeedTableViewController.swift; sourceTree = "<group>"; };
+		476DBDCC20332F9E00FA9ECA /* FlochatIosTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlochatIosTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		476DBDCF20332F9E00FA9ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		476DBDD120332F9E00FA9ECA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		476DBDD420332F9E00FA9ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476DBDD620332F9E00FA9ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476DBDD920332F9E00FA9ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		476DBDDB20332F9E00FA9ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476DBDE020332F9E00FA9ECA /* FlochatIosTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlochatIosTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476DBDE420332F9E00FA9ECA /* FlochatIosTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlochatIosTestAppTests.swift; sourceTree = "<group>"; };
+		476DBDE620332F9E00FA9ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476DBDEB20332F9E00FA9ECA /* FlochatIosTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlochatIosTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476DBDEF20332F9E00FA9ECA /* FlochatIosTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlochatIosTestAppUITests.swift; sourceTree = "<group>"; };
+		476DBDF120332F9E00FA9ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476DBDFD20333A1800FA9ECA /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		476DBE012033526500FA9ECA /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4779BF792034BB1E00CCDB11 /* FoodFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFeedTableViewCell.swift; sourceTree = "<group>"; };
+		4779BF7F2034D6A400CCDB11 /* FlochatIosTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlochatIosTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		4779BF872035A02B00CCDB11 /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		4779BF892035A73900CCDB11 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4779BF8C2035B40400CCDB11 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4779BF8D2035B72E00CCDB11 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4779BF8F2035D8F000CCDB11 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A85B047A6B4F7F9B4E6A9A55 /* Pods_FlochatIosTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlochatIosTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476DBDC920332F9E00FA9ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC994E2639F06F62A35D205 /* Pods_FlochatIosTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DBDDD20332F9E00FA9ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DBDE820332F9E00FA9ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476DBDC320332F9E00FA9ECA = {
+			isa = PBXGroup;
+			children = (
+				4779BF8D2035B72E00CCDB11 /* Podfile */,
+				476DBDCE20332F9E00FA9ECA /* FlochatIosTestApp */,
+				476DBDE320332F9E00FA9ECA /* FlochatIosTestAppTests */,
+				476DBDEE20332F9E00FA9ECA /* FlochatIosTestAppUITests */,
+				476DBDCD20332F9E00FA9ECA /* Products */,
+				962DF4BEA859A5FD2804712C /* Pods */,
+				6A11CC8DFFF093FD26868141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		476DBDCD20332F9E00FA9ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476DBDCC20332F9E00FA9ECA /* FlochatIosTestApp.app */,
+				476DBDE020332F9E00FA9ECA /* FlochatIosTestAppTests.xctest */,
+				476DBDEB20332F9E00FA9ECA /* FlochatIosTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476DBDCE20332F9E00FA9ECA /* FlochatIosTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				4779BF862035A00F00CCDB11 /* DB */,
+				4779BF8520359AF800CCDB11 /* ViewControllers */,
+				476DBE002033523800FA9ECA /* Models */,
+				476DBDFF2033522E00FA9ECA /* Network */,
+				476DBDCF20332F9E00FA9ECA /* AppDelegate.swift */,
+				476DBDD320332F9E00FA9ECA /* Main.storyboard */,
+				476DBDD620332F9E00FA9ECA /* Assets.xcassets */,
+				476DBDD820332F9E00FA9ECA /* LaunchScreen.storyboard */,
+				476DBDDB20332F9E00FA9ECA /* Info.plist */,
+				4779BF792034BB1E00CCDB11 /* FoodFeedTableViewCell.swift */,
+				4779BF7F2034D6A400CCDB11 /* FlochatIosTestApp-Bridging-Header.h */,
+				4779BF8F2035D8F000CCDB11 /* Utility.swift */,
+			);
+			path = FlochatIosTestApp;
+			sourceTree = "<group>";
+		};
+		476DBDE320332F9E00FA9ECA /* FlochatIosTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				476DBDE420332F9E00FA9ECA /* FlochatIosTestAppTests.swift */,
+				476DBDE620332F9E00FA9ECA /* Info.plist */,
+			);
+			path = FlochatIosTestAppTests;
+			sourceTree = "<group>";
+		};
+		476DBDEE20332F9E00FA9ECA /* FlochatIosTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				476DBDEF20332F9E00FA9ECA /* FlochatIosTestAppUITests.swift */,
+				476DBDF120332F9E00FA9ECA /* Info.plist */,
+			);
+			path = FlochatIosTestAppUITests;
+			sourceTree = "<group>";
+		};
+		476DBDFF2033522E00FA9ECA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				476DBE012033526500FA9ECA /* WebService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		476DBE002033523800FA9ECA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				476DBDFD20333A1800FA9ECA /* Collection.swift */,
+				4779BF892035A73900CCDB11 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4779BF8520359AF800CCDB11 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				476DBDD120332F9E00FA9ECA /* SignInViewController.swift */,
+				474BDFB62034557000B983A4 /* SignUpViewController.swift */,
+				474BDFBA20345DBE00B983A4 /* FoodFeedTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4779BF862035A00F00CCDB11 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				4779BF872035A02B00CCDB11 /* DBService.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		6A11CC8DFFF093FD26868141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4779BF8C2035B40400CCDB11 /* libAFNetworking.a */,
+				A85B047A6B4F7F9B4E6A9A55 /* Pods_FlochatIosTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		962DF4BEA859A5FD2804712C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36EDFAB5B078103D5EF86CB4 /* Pods-FlochatIosTestApp.debug.xcconfig */,
+				2309D5438B7930BF24EEF8A4 /* Pods-FlochatIosTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476DBDCB20332F9E00FA9ECA /* FlochatIosTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476DBDF420332F9E00FA9ECA /* Build configuration list for PBXNativeTarget "FlochatIosTestApp" */;
+			buildPhases = (
+				539BDA8D705489196BEDA42A /* [CP] Check Pods Manifest.lock */,
+				476DBDC820332F9E00FA9ECA /* Sources */,
+				476DBDC920332F9E00FA9ECA /* Frameworks */,
+				476DBDCA20332F9E00FA9ECA /* Resources */,
+				E38C1AC55CDBC65B1599A56D /* [CP] Embed Pods Frameworks */,
+				E5AA0AF99C6A7967B3C7C543 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlochatIosTestApp;
+			productName = FlochatIosTestApp;
+			productReference = 476DBDCC20332F9E00FA9ECA /* FlochatIosTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476DBDDF20332F9E00FA9ECA /* FlochatIosTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476DBDF720332F9E00FA9ECA /* Build configuration list for PBXNativeTarget "FlochatIosTestAppTests" */;
+			buildPhases = (
+				476DBDDC20332F9E00FA9ECA /* Sources */,
+				476DBDDD20332F9E00FA9ECA /* Frameworks */,
+				476DBDDE20332F9E00FA9ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476DBDE220332F9E00FA9ECA /* PBXTargetDependency */,
+			);
+			name = FlochatIosTestAppTests;
+			productName = FlochatIosTestAppTests;
+			productReference = 476DBDE020332F9E00FA9ECA /* FlochatIosTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		476DBDEA20332F9E00FA9ECA /* FlochatIosTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476DBDFA20332F9E00FA9ECA /* Build configuration list for PBXNativeTarget "FlochatIosTestAppUITests" */;
+			buildPhases = (
+				476DBDE720332F9E00FA9ECA /* Sources */,
+				476DBDE820332F9E00FA9ECA /* Frameworks */,
+				476DBDE920332F9E00FA9ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476DBDED20332F9E00FA9ECA /* PBXTargetDependency */,
+			);
+			name = FlochatIosTestAppUITests;
+			productName = FlochatIosTestAppUITests;
+			productReference = 476DBDEB20332F9E00FA9ECA /* FlochatIosTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476DBDC420332F9E00FA9ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anil Saini";
+				TargetAttributes = {
+					476DBDCB20332F9E00FA9ECA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					476DBDDF20332F9E00FA9ECA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 476DBDCB20332F9E00FA9ECA;
+					};
+					476DBDEA20332F9E00FA9ECA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 476DBDCB20332F9E00FA9ECA;
+					};
+				};
+			};
+			buildConfigurationList = 476DBDC720332F9E00FA9ECA /* Build configuration list for PBXProject "FlochatIosTestApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476DBDC320332F9E00FA9ECA;
+			productRefGroup = 476DBDCD20332F9E00FA9ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476DBDCB20332F9E00FA9ECA /* FlochatIosTestApp */,
+				476DBDDF20332F9E00FA9ECA /* FlochatIosTestAppTests */,
+				476DBDEA20332F9E00FA9ECA /* FlochatIosTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476DBDCA20332F9E00FA9ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DBDDA20332F9E00FA9ECA /* LaunchScreen.storyboard in Resources */,
+				476DBDD720332F9E00FA9ECA /* Assets.xcassets in Resources */,
+				4779BF8E2035B72E00CCDB11 /* Podfile in Resources */,
+				476DBDD520332F9E00FA9ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DBDDE20332F9E00FA9ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DBDE920332F9E00FA9ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		539BDA8D705489196BEDA42A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlochatIosTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38C1AC55CDBC65B1599A56D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlochatIosTestApp/Pods-FlochatIosTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlochatIosTestApp/Pods-FlochatIosTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AA0AF99C6A7967B3C7C543 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlochatIosTestApp/Pods-FlochatIosTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476DBDC820332F9E00FA9ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4779BF902035D8F000CCDB11 /* Utility.swift in Sources */,
+				476DBDFE20333A1800FA9ECA /* Collection.swift in Sources */,
+				474BDFBB20345DBE00B983A4 /* FoodFeedTableViewController.swift in Sources */,
+				476DBDD220332F9E00FA9ECA /* SignInViewController.swift in Sources */,
+				4779BF882035A02B00CCDB11 /* DBService.swift in Sources */,
+				4779BF7A2034BB1E00CCDB11 /* FoodFeedTableViewCell.swift in Sources */,
+				4779BF8A2035A73900CCDB11 /* User.swift in Sources */,
+				476DBE022033526500FA9ECA /* WebService.swift in Sources */,
+				474BDFB72034557000B983A4 /* SignUpViewController.swift in Sources */,
+				476DBDD020332F9E00FA9ECA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DBDDC20332F9E00FA9ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DBDE520332F9E00FA9ECA /* FlochatIosTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DBDE720332F9E00FA9ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DBDF020332F9E00FA9ECA /* FlochatIosTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476DBDE220332F9E00FA9ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476DBDCB20332F9E00FA9ECA /* FlochatIosTestApp */;
+			targetProxy = 476DBDE120332F9E00FA9ECA /* PBXContainerItemProxy */;
+		};
+		476DBDED20332F9E00FA9ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476DBDCB20332F9E00FA9ECA /* FlochatIosTestApp */;
+			targetProxy = 476DBDEC20332F9E00FA9ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		476DBDD320332F9E00FA9ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476DBDD420332F9E00FA9ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		476DBDD820332F9E00FA9ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476DBDD920332F9E00FA9ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		476DBDF220332F9E00FA9ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		476DBDF320332F9E00FA9ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476DBDF520332F9E00FA9ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EDFAB5B078103D5EF86CB4 /* Pods-FlochatIosTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YBP7NFD78;
+				INFOPLIST_FILE = FlochatIosTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saini.com.FlochatIosTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlochatIosTestApp/FlochatIosTestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476DBDF620332F9E00FA9ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2309D5438B7930BF24EEF8A4 /* Pods-FlochatIosTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YBP7NFD78;
+				INFOPLIST_FILE = FlochatIosTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saini.com.FlochatIosTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlochatIosTestApp/FlochatIosTestApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		476DBDF820332F9E00FA9ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlochatIosTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saini.com.FlochatIosTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlochatIosTestApp.app/FlochatIosTestApp";
+			};
+			name = Debug;
+		};
+		476DBDF920332F9E00FA9ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlochatIosTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saini.com.FlochatIosTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlochatIosTestApp.app/FlochatIosTestApp";
+			};
+			name = Release;
+		};
+		476DBDFB20332F9E00FA9ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlochatIosTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saini.com.FlochatIosTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlochatIosTestApp;
+			};
+			name = Debug;
+		};
+		476DBDFC20332F9E00FA9ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlochatIosTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Saini.com.FlochatIosTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlochatIosTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476DBDC720332F9E00FA9ECA /* Build configuration list for PBXProject "FlochatIosTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DBDF220332F9E00FA9ECA /* Debug */,
+				476DBDF320332F9E00FA9ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476DBDF420332F9E00FA9ECA /* Build configuration list for PBXNativeTarget "FlochatIosTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DBDF520332F9E00FA9ECA /* Debug */,
+				476DBDF620332F9E00FA9ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476DBDF720332F9E00FA9ECA /* Build configuration list for PBXNativeTarget "FlochatIosTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DBDF820332F9E00FA9ECA /* Debug */,
+				476DBDF920332F9E00FA9ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476DBDFA20332F9E00FA9ECA /* Build configuration list for PBXNativeTarget "FlochatIosTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DBDFB20332F9E00FA9ECA /* Debug */,
+				476DBDFC20332F9E00FA9ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476DBDC420332F9E00FA9ECA /* Project object */;
+}
